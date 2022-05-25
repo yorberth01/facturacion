@@ -72,7 +72,7 @@
 									FROM usuario u
 									INNER JOIN rol r
 									on u.rol = r.idrol
-									WHERE idusuario= $iduser ");
+									WHERE idusuario= $iduser  AND estatus=1");
 	mysqli_close($conection);
 	$result_sql = mysqli_num_rows($sql);
 
