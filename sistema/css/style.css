@@ -268,6 +268,9 @@ table td {
 .link_delete {
   color: #f26b6b;
 }
+.link_add {
+  color: #327c2f;
+}
 .data_delete {
   text-align: center;
 }
@@ -415,4 +418,11 @@ table td {
 }
 .imgProductoDelete {
   width: 175px;
+}
+
+/*tamanño de las fotos subidas a la base de datos*/
+.tamanio_foto {
+  width: 60px;
+  height: auto;
+  margin: auto;
 }
